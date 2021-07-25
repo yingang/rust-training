@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+  "hello-rust",
+  "rust-lib",
+]
