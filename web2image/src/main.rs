@@ -46,5 +46,5 @@ fn main() {
     let opts = Opts::parse();
     println!("{:?}", opts);
 
-    web2image(opts.url, opts.output);
+//    web2image(opts.url, opts.output);
 }
