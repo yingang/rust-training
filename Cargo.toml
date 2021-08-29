@@ -3,4 +3,5 @@
 members = [
   "hello-rust",
   "rust-lib",
+  "web2image"
 ]
