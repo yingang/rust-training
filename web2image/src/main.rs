@@ -4,6 +4,7 @@ use clap::{AppSettings, Clap};
 use url::Url;
 
 mod web2image;
+use web2image::web2image;
 
 #[derive(Clap, Debug)]
 #[clap(version = "0.1", author = "Gang Yin <hahayygg@coldmail.com>")]
@@ -46,5 +47,5 @@ fn main() {
     let opts = Opts::parse();
     println!("{:?}", opts);
 
-    web2image(opts.url, opts.output);
+    web2image(&opts.url, &opts.output);
 }
