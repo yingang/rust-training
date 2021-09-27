@@ -5,6 +5,6 @@ members = [
   "rust-lib",
   #"web2image",
   "rust-tracing",
-  "rust-tracing2",
+  #"rust-tracing2",
   "kvstore",
 ]

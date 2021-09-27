@@ -7,6 +7,7 @@ fn main() {
     let (span_tx, span_rx) = crossbeam_channel::bounded(10);
     let tracer = Tracer::with_sender(AllSampler, span_tx);
     {
+        #[allow(unused_variables)]
         let span = tracer.span("sample_op").start();
         // Do something
 
